@@ -6,8 +6,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.0-beta1'
-        classpath 'me.tatarka:gradle-retrolambda:3.4.0'
+        classpath 'com.android.tools.build:gradle:2.4.0-alpha7'
+//        classpath 'me.tatarka:gradle-retrolambda:3.4.0'
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -25,5 +25,5 @@ task clean(type: Delete) {
 }
 
 ext {
-    supportLibVersion = '24.2.1'  // variable that can be referenced to keep support libs consistent
+    supportLibVersion = '25.3.0'  // variable that can be referenced to keep support libs consistent
 }
